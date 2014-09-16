@@ -19,3 +19,6 @@ This repository contains **Dockerbase** of [Devbase-pip](https://pypi.python.org
 ### Usage
 
     docker run -it --rm --name dockerbase-devbase-pip dockerbase/devbase-pip
+
+### Information
+[Components & Versions](https://github.com/dockerbase/devbase-pip/blob/master/COMPONENTS)
