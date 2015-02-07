@@ -5,7 +5,7 @@
 
 FROM dockerbase/devbase
 
-MAINTAINER Richad Lee "lifuzu@gmail.com"
+MAINTAINER Richard Lee "lifuzu@gmail.com"
 
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
@@ -21,7 +21,7 @@ RUN     pip install -U pip
 # Clean up system
 RUN     apt-get clean
 
-USER    devbase
+#USER    devbase
 
 # Set environment variables.
 ENV     HOME /home/devbase
